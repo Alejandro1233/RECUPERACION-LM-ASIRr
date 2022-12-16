@@ -1,0 +1,81 @@
+body{
+background: 
+linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 203, 5) 50.00%, rgb(5, 91, 166) 100%);
+}
+#parrafo{
+    font-family: 'PermanentMarker-Regular';
+    text-align: center;
+    font-size: 35px;
+}
+#muñeco{
+    text-align: right;
+}
+#arte{
+    top: 20%;
+    position: absolute;
+    left: 10%;
+    font-size: 80px;
+    font-family: 'SedgwickAveDisplay-Regular';
+    color: #055BA6;
+}
+#barrra{
+    background-color: #F2507B;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'SedgwickAveDisplay-Regular';
+}
+footer {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    max-width: 100%;
+    padding: 0 4px;
+    text-align: center;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+@font-face {
+    font-family: 'SedgwickAveDisplay-Regular';
+    src: url(../fonts/SedgwickAveDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'PermanentMarker-Regular';
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+
+    
+  
+  
+   
+  
